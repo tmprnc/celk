@@ -71,6 +71,10 @@
 
 /* CUSTOM CSS */
 
+.wrapper__8436d:hover .childWrapper_a6ce15, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+  color: var(--background-2);
+}
+
 .iconBadge__19638 {
     background-color: var(--accent-color);
   }
