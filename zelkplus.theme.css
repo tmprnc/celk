@@ -70,10 +70,6 @@
 
 /* CUSTOM CSS */
 
-* {
-  --__lottieIconColor: var(--background-1) !important;
-}
-
 .vc-reply-timestamp {
   width: 1.7rem !important;
 }
