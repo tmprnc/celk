@@ -70,10 +70,9 @@
 
 /* CUSTOM CSS */
 
-
 .iconBadge__19638 {
-  background-color: var(--button-accent-active);
-}
+    background-color: var(--accent-color);
+  }
 
 #vc-friendcount {
   font-size: 0.65em;
