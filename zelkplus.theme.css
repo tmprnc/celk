@@ -80,11 +80,7 @@
   font-weight: lighter;
 }
 
-.theme-light .base__5ed84 {
-  color: var(--text-normal) !important;
-}
-
-.theme-dark .base__5ed84 {
+.base__5ed84 {
  color: var(--background-1) !important;
 }
 
