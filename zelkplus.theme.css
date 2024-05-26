@@ -65,11 +65,14 @@
    --indicator-connected-background: hsla(var(--indicator-connected)/0.15);
    --indicator-connected-hover-background: hsla(var(--indicator-connected)/0.25);
    --indicator-connected: var(--green-230-hsl);
-   --__lottieIconColor: var(--background-1);
 }
 
 
 /* CUSTOM CSS */
+
+* {
+  --__lottieIconColor: var(--background-1) !important;
+}
 
 .vc-reply-timestamp {
   width: 1.7rem !important;
