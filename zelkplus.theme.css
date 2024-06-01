@@ -80,6 +80,15 @@
 
 /* CUSTOM CSS */
 
+.channelTextArea_c2094b {
+  background: none;
+  backdrop-filter: blur(var(--blur-popup));
+}
+
+.replyBar_ed6afc {
+  background: transparent;
+}
+
 .jumpToPresentBar__69174 {
 	background: none;
 	backdrop-filter: blur(var(--blur-popup));
