@@ -82,22 +82,26 @@
 
 .jumpToPresentBar__69174 {
 	background: none;
-	backdrop-filter: blur(50px);
+	backdrop-filter: blur(var(--blur-popup));
 }
 
 .unread__75c9f {
 	background: none;
 }
 
+.unread__11823 {
+  background: transparent;
+  z-index: 10;
+}
+
 .bar_edc096 {
-  background-color: var(--accent-85);
-  backdrop-filter: blur(35px);
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.14) 0px 1px 2px;
+  background: var(--accent-85);
+  backdrop-filter: blur(95px);
+  box-shadow: 0px 0px 5px 0px var(--accent-color);
 }
 
 .unread__75c9f.bar_edc096 {
     color: var(--background-1);
-    
 }
 
 .subtitleContainer_f50402 { 
@@ -117,7 +121,7 @@
 }
 
 .newMessagesBar__8b272 {
-  backdrop-filter: blur(35px);
+  backdrop-filter: blur(var(--blur-popup));
   background-color: var(--accent-85);
   position: absolute;
   top: 48px; /* hauteur du header */
