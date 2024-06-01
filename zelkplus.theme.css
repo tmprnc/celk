@@ -80,6 +80,7 @@
 
 /* CUSTOM CSS */
 
+<<<<<<< HEAD
 .unread__75c9f {
 	background: none;
 }
@@ -120,6 +121,8 @@
 }
 }
 
+=======
+>>>>>>> 4e47edcc3c0044fbd9a871d3be98ae0a1c7d520f
 .wrapper__612a5.modeSelected__473f1 .actionIcon_b149a2 > path {
   fill: var(--background-1) !important;
   
@@ -131,6 +134,17 @@
 .actionIcon_b149a2 {
   color: var(--text-normal);
 }
+<<<<<<< HEAD
+=======
+
+.unread__75c9f {
+	background-color: var(--accent-color);
+}
+
+.unread__75c9f.bar_edc096 {
+    color: var(--background-1);
+}
+>>>>>>> 4e47edcc3c0044fbd9a871d3be98ae0a1c7d520f
 
 .buttonIcon__64412 {
   --__lottieIconColor: var(--background-1) !important;
