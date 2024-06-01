@@ -33,12 +33,27 @@
   --message: none;
   /* set to '4px solid' to show */
   --embed-color: none;
-  /* set to 'Inter', sans-serif !important to use Inter font*/
-  --font-primary: "Assistant", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: "Assistant", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --border-radius-1: 10px;
   --border-radius-2: 8px;
   --spacing: 12px;
+  --font-primary: "Atkinson Hyperlegible" !important;
+  --font-display: "Assistant" !important;  
+  --var-opacity-option: 0.4 !important;
+  /* Set's the BASE opacity (titlebar, and the server bar) */
+    --brand-500: var(--accent-color) !important;
+}
+
+* {
+    scrollbar-width: unset !important;
+    scrollbar-color: unset !important;
+}
+
+.theme-dark .header__58a85 .tabBar__2aa8e .tab_a8a066.active__7e7af {
+    background-color: var(--accent-color);
+}
+
+.buttonIcon__64412 {
+    --__lottieIconColor: var(--background-1) !important;
 }
 
 :root {
