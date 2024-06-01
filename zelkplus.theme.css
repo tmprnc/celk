@@ -81,6 +81,13 @@
 
 /* CUSTOM CSS */
 
+.unread__75c9f {
+	background-color: var(--accent-color);
+}
+
+.unread__75c9f.bar_edc096 {
+    color: var(--background-1);
+}
 
 .buttonIcon__64412 {
   --__lottieIconColor: var(--background-1) !important;
