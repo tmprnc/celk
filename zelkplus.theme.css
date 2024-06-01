@@ -80,6 +80,11 @@
 
 /* CUSTOM CSS */
 
+.jumpToPresentBar__69174 {
+	background: none;
+	backdrop-filter: blur(50px);
+}
+
 .unread__75c9f {
 	background: none;
 }
