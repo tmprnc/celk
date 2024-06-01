@@ -52,10 +52,6 @@
     background-color: var(--accent-color);
 }
 
-.buttonIcon__64412 {
-    --__lottieIconColor: var(--background-1) !important;
-}
-
 :root {
   /*
    * RadialStatus veriables
