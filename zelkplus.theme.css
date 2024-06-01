@@ -81,6 +81,18 @@
 
 /* CUSTOM CSS */
 
+.wrapper__612a5.modeSelected__473f1 .actionIcon_b149a2 > path {
+  fill: var(--background-1) !important;
+  
+}
+.modeSelected__473f1:hover .name__4eb92 {
+  color: var(--background-1)
+}
+
+.actionIcon_b149a2 {
+  color: var(--text-normal);
+}
+
 .unread__75c9f {
 	background-color: var(--accent-color);
 }
