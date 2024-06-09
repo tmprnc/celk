@@ -24,6 +24,7 @@
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
+  --background-2-20: rgb(30 32 48 / 45%) !important;
 }
 .theme-light {
   --accent-color: #dc8a78 !important;
@@ -50,6 +51,7 @@
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
+  --background-2-20: rgb(230 233 239 / 45%);
 }
 :root {
   --background-primary: var(--background-1) !important;
