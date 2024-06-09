@@ -80,6 +80,11 @@
 
 /* CUSTOM CSS */
 
+.themedBackground__3a4c0, .themedBackground__3a4c0 .hasConnectedBar__7d21e {
+  background: var(--background-2-20);
+  backdrop-filter: blur(var(--blur-popup));
+} 
+
 .akaBadge__27cd4 {
   background-color: var(--text-normal) !important;
   opacity: 0.7;
