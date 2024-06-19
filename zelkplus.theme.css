@@ -23,11 +23,12 @@
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/purple.css); */
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/red.css); */
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/discord.css); */
+
 /*-------------VARIABLES-------------*/
 :root {
   /* set to 'unset' to show */
   --scrollbars: none;
-  /* user notes */
+  /* user notes */  
   --notes: none;
   /* direct message box */
   --message: none;
@@ -40,16 +41,12 @@
   --font-display: "Assistant" !important;  
   --var-opacity-option: 0.4 !important;
   /* Set's the BASE opacity (titlebar, and the server bar) */
-    --brand-500: var(--accent-color) !important;
-}
-
-* {
-    scrollbar-width: unset !important;
-    scrollbar-color: unset !important;
-}
-
-.theme-dark .header__58a85 .tabBar__2aa8e .tab_a8a066.active__7e7af {
-    background-color: var(--accent-color);
+	
+  --brand-360: var(--accent-color) !important; 
+  --brand-500: var(--accent-color) !important;
+  --brand-530: var(--accent-color) !important;
+  --brand-600: var(--accent-color) !important;
+  --channeltextarea-background: var(--background-2);
 }
 
 :root {
@@ -76,9 +73,110 @@
    --indicator-connected-background: hsla(var(--indicator-connected)/0.15);
    --indicator-connected-hover-background: hsla(var(--indicator-connected)/0.25);
    --indicator-connected: var(--green-230-hsl);
+   --blur-small: 10px;
 }
 
 /* CUSTOM CSS */
+
+[class*="themedBackground"] {
+    background: var(--bg-2-20) !important;
+    backdrop-filter: blur(var(--blur-small));
+}
+
+[class*="themedBackground"] [class*="hasConnectedBar"] {
+    background: var(--bg-2-20);
+    backdrop-filter: blur(var(--blur-small));
+} 
+
+[class*="channelTextArea_"] {
+  background: transparent !important;
+}
+
+[class*="replyBar_"] {
+  background: transparent;
+}
+
+[class*="attachedBars_"] {
+    background: var(--bg-2-20);
+  backdrop-filter: blur(var(--blur-small));
+}
+
+
+[class*="jumpToPresentBar"] {
+    background: var(--bg-2-20);
+    color: var(--text-normal);
+	backdrop-filter: blur(var(--blur-small));
+}
+
+.result_f14193[aria-selected="true"] {
+  .contentDefault_f14193 {
+    color: var(--background-1);
+      .icon_f14193 {
+          color: var(--background-1);
+      }
+      .note_f14193 {
+          color: var(--text-muted-accented);
+      }
+      .misc_f14193 {
+          color: var(--text-muted-accented);
+      };
+    }  }
+
+[class*="tabBody"]::before {
+    box-shadow: none;
+}
+
+[class*="searchBar"] {
+    box-shadow: none;
+    background-color: var(--background-tertiary);
+}
+
+[class*="input"] {
+    background: var(--channeltextarea-background);
+}
+
+.expression-picker-chat-input-button {
+    background: none;
+}
+
+
+[class*="interactiveSelected"] {
+    color: var(--background-1) !important;
+}
+
+[class*="interactiveSelected"]:hover {
+        color: var(--text-normal) !important;
+}
+
+.side_a0 .themed_a0.selected_a0.item_a0 {
+    color: var(--background-1);
+}
+
+.side_a0 .themed_a0.item_a0:hover:not(.disabled_a0) {
+    color: var(--text-normal);
+}
+
+
+.chat_fe669e::before {
+    box-shadow: none;
+}
+
+[class*="gradientContainer_"] {
+    background-image: linear-gradient(#1e2030 0%,rgba(30,32,48,.738)19%,rgba(30,32,48,.541)34%,rgba(30,32,48,.382)47%,rgba(30,32,48,.278)56.5%,rgba(30,32,48,.194)65%,rgba(30,32,48,.126)73%,rgba(30,32,48,7.5%)80.2%,rgba(30,32,48,4.2%)86.1%,rgba(30,32,48,2.1%)91%,rgba(30,32,48,.8%)95.2%,rgba(30,32,48,.2%)98.2%,rgba(30,32,48,0)100%);
+}
+
+[class*="callContainer_"] {
+    background: var(--background-1);
+}
+
+.theme-dark .colorDefault_d90b3d.focused_d90b3d {
+    color: var(--background-1);
+}
+
+.theme-dark .colorDefault_d90b3d.focused_d90b3d path {
+    fill: var(--background-1);
+}
+
 .theme-dark .children_e44302::after {
     background: none;
 }
@@ -193,11 +291,12 @@ button.button_f67531.enabled_f67531:hover {
     background-color: var(--accent-color);
 }
 
+/* 19/06 changes end here */
 
-.themedBackground__3a4c0, .themedBackground__3a4c0 .hasConnectedBar__7d21e {
-  background: var(--background-2-20);
-  backdrop-filter: blur(var(--blur-popup));
-} 
+.themedBackground__3a4c0 {
+  background: transparent;
+  backdrop-filter: blur(var(--blur-small));
+}
 
 .akaBadge__27cd4 {
   background-color: var(--text-normal) !important;
@@ -222,25 +321,6 @@ button.button_f67531.enabled_f67531:hover {
 
 .repliedMessage__636d2 .repliedTextPreview__1a8a4 .repliedTextContent_b12fe1 {
   opacity: 0.65;
-}
-
-.channelTextArea_c2094b  {
-  background: transparent !important;
-}
-
-.replyBar_ed6afc {
-  background: transparent !important;
-}
-
-.attachedBars_c1606a {
-  background: transparent !important;
-  backdrop-filter: blur(var(--blur-popup));
-}
-
-
-.jumpToPresentBar__69174 {
-	background: none;
-	backdrop-filter: blur(var(--blur-popup));
 }
 
 .unread__75c9f {
@@ -287,6 +367,10 @@ button.button_f67531.enabled_f67531:hover {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgb(0 0 0 / 3%);
 }
 
+.themed_b152d4 {
+    background: transparent !important;
+}
+
 .wrapper__612a5.modeSelected__473f1 .actionIcon_b149a2 > path {
   fill: var(--background-1) !important;
   
@@ -299,8 +383,8 @@ button.button_f67531.enabled_f67531:hover {
   color: var(--text-normal);
 }
 
-.buttonIcon__64412 {
-  --__lottieIconColor: var(--background-1) !important;
+.vc-reply-timestamp {
+  width: 1.8rem !important;
 }
 
 .wrapper__8436d:hover .childWrapper_a6ce15, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
@@ -335,7 +419,7 @@ button.button_f67531.enabled_f67531:hover {
 .botTagRegular_fc4b4a {
   color: var(--background-1);
   font-family: 'Assistant' !important;
-  font-size: smallest !important;
+  font-size: smaller !important;
 }
 
 .rem_be1e7a.botTag__4211a {
@@ -370,7 +454,6 @@ button.button_f67531.enabled_f67531:hover {
 .theme-dark .lookFilled__950dd.colorBrand__27d57 {
   color: var(--background-1);
 }
-
 
 .modeSelected__473f1 .name__4eb92, .modeSelected__473f1 .name__4eb92, .interactiveSelected__689f0, .selected_a523ff.item__48dda, .selected_a523ff.item__48dda:hover {
   color: var(--background-1);
@@ -458,7 +541,7 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 .theme-light .container__590e2 {
-  background: --background-primary;
+  background: var(--background-primary);
 }
 
 .search__07df0 {
@@ -689,3 +772,4 @@ button.button_f67531.enabled_f67531:hover {
 .radioIconForeground__99b9b {
   color: var(--interactive-selected) !important;
 }
+
