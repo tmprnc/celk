@@ -1,4 +1,4 @@
-/* Blue */
+/* Catppuccin Latte Flamingo (Light) & Catppuccin Moccha Green (Dark) */
 .theme-dark {
   --accent-color: #a6e3a1 !important;
   --accent-85: #a6e3a1d9;
@@ -10,7 +10,7 @@
   --background-modifier-hover: #313244 !important;
   --background-modifier-active: #45475a !important;
   --text-normal: #cdd6f4 !important;
-  --text-positive: #81c8be !important;
+  --text-positive: #7faf5e !important;
   --text-muted: #a6adc8 !important;
   --text-link: #edf8fe !important;
   --settings-icon-color: #8eacbc !important;
@@ -24,11 +24,18 @@
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
-  --background-2-20: rgb(30 32 48 / 45%) !important;
+  --unread-divider: #fab387 !important;
+  --accented-hover: #179299 !important;
+  --green-330: #a6d189 !important;
+  --green-360: #7faf5e !important;
+  --status-positive: #7faf5e !important;
+  --status-danger: #e78284 !important;
+  --text-muted-accented: var(--button-background-active);
 }
+
 .theme-light {
   --accent-color: #dc8a78 !important;
-  --accent-85: #dc8a78d9;
+  --accent-85: #dc8a78d9 !important;
   --background-1: #eff1f5 !important;
   --background-2: #e6e9ef !important;
   --border-color: transparent !important;
@@ -51,8 +58,15 @@
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
-  --background-2-20: rgb(230 233 239 / 45%);
+  --unread-divider: #fe640b !important;
+  --accented-hover: #f5e0dc !important;
+  --green-330: #a6d189 !important;
+  --green-360: #7faf5e !important;
+  --status-positive: #7faf5e !important;
+  --status-danger: #e64553 !important;
+  --text-muted-accented: var(--background-2);
 }
+
 :root {
   --background-primary: var(--background-1) !important;
   --background-primary-alt: var(--background-1) !important;
