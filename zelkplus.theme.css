@@ -184,7 +184,7 @@
   z-index: 10;
 }
 
-.bar_edc096 {
+.unread_c10249 {
   background: var(--accent-85);
   backdrop-filter: blur(95px);
   box-shadow: 0px 0px 5px 0px var(--accent-color);
@@ -194,10 +194,10 @@
     color: var(--background-1);
 }
 
-.subtitleContainer_f50402 { 
+.subtitleContainer_a7d72e { 
   /* header de channel discord*/
-  backdrop-filter: blur(1px);
-  background: #00000085;
+  backdrop-filter: blur(10px);
+  background: var(--bg-2-85);
   position: absolute;
   top: 0;
   z-index: 10;
@@ -210,11 +210,12 @@
   }
 }
 
-.newMessagesBar__8b272 {
-  backdrop-filter: blur(var(--blur-popup));
+.newMessagesBar_cf58b5 {
+  backdrop-filter: blur(var(--blur-small));
   background-color: var(--accent-85);
+  color: var(--background-1);
   position: absolute;
-  top: 8px; /* hauteur du header */
+  top: 48px !important; /* hauteur du header */
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgb(0 0 0 / 3%);
 }
 
