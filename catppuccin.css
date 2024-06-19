@@ -4,6 +4,8 @@
   --accent-85: #a6e3a1d9;
   --background-1: #181926 !important;
   --background-2: #1e2030 !important;
+  --bg-2-85: rgba(30, 32, 48, .25);
+  --bg-2-20: rgba(30, 32, 48, .20);
   --border-color: #1e1e2e !important;
   --background-mentioned: #a6e3a110 !important;
   --background-mentioned-hover: #f2cdcd15 !important;
@@ -31,6 +33,10 @@
   --status-positive: #7faf5e !important;
   --status-danger: #e78284 !important;
   --text-muted-accented: var(--button-background-active);
+  --button-positive-background: var(--text-positive);
+  --button-positive-background-hover: var(--green-330);
+  --mention-background: #a6e3a15e;
+  --mention-foreground: #e2efe1;
 }
 
 .theme-light {
@@ -38,10 +44,12 @@
   --accent-85: #dc8a78d9 !important;
   --background-1: #eff1f5 !important;
   --background-2: #e6e9ef !important;
+  --bg-2-85: rgba(230, 233, 239, .25) !important;
+  --bg-2-20: rgba(230, 233, 239, .20);
   --border-color: transparent !important;
   --background-mentioned: #dc8a7810 !important;
   --background-mentioned-hover: #dc8a7815 !important;
-  --background-modifier-hover: transparent !important;
+  --background-modifier-hover: #f5e0dc !important;
   --background-modifier-active: #e1d3d0 !important;
   --text-normal: #4c4f69 !important;
   --text-positive: #7faf5e !important;
@@ -65,6 +73,10 @@
   --status-positive: #7faf5e !important;
   --status-danger: #e64553 !important;
   --text-muted-accented: var(--background-2);
+  --button-positive-background: var(--text-positive);
+  --button-positive-background-hover: var(--green-330);
+  --mention-background: #dc8a785e;
+  --mention-foreground: #db6f57;
 }
 
 :root {
