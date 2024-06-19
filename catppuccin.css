@@ -26,10 +26,11 @@
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
-  --unread-divider: #fab387 !important;
+  --unread-divider: #f5a97f !important;
   --accented-hover: #179299 !important;
   --green-330: #a6d189 !important;
   --green-360: #7faf5e !important;
+  --green-430: #7faf5e;
   --status-positive: #7faf5e !important;
   --status-danger: #e78284 !important;
   --text-muted-accented: var(--button-background-active);
@@ -66,10 +67,11 @@
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
-  --unread-divider: #fe640b !important;
+  --unread-divider: #ca9ee6 !important;
   --accented-hover: #f5e0dc !important;
   --green-330: #a6d189 !important;
   --green-360: #7faf5e !important;
+  --green-430: #7faf5e;
   --status-positive: #7faf5e !important;
   --status-danger: #e64553 !important;
   --text-muted-accented: var(--background-2);
