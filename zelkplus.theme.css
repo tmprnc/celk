@@ -80,6 +80,52 @@
 
 /* CUSTOM CSS */
 
+.modeSelected_d8bfb3 > .unreadImportant_d8bfb3 {
+    background-color: var(--accent-color);
+}
+
+.barButtonBase_cf58b5 {
+    color: inherit;
+}
+
+.header_fd6364 {
+    box-shadow: none;
+    background-color: var(--background-tertiary);
+}
+
+.theme-light .themed_e44302 {
+    background-color: var(--background-tertiary);
+}
+
+.theme-dark .themed_e44302 {
+    background-color: var(--background-tertiary);
+}
+
+.content_a7d72e::before {
+    box-shadow: none;
+}
+
+.modeSelected_d8bfb3 .name_d8bfb3 {
+     color: var(--background-primary);
+}
+
+.modeSelected_d8bfb3 .icon_d8bfb3 {
+    color: var(--background-primary);
+}
+
+.modeSelected_d8bfb3 .actionIcon_f6f816 {
+    color: var(--background-primary);
+    fill: var(--background-primary);
+}
+
+.modeSelected_d8bfb3 .actionIcon_f6f816 > path {
+    fill: inherit;
+}
+
+.theme-dark .header__58a85 .tabBar__2aa8e .tab_a8a066.active__7e7af {
+    background-color: var(--accent-color);
+}
+
 .themedBackground__3a4c0, .themedBackground__3a4c0 .hasConnectedBar__7d21e {
   background: var(--background-2-20);
   backdrop-filter: blur(var(--blur-popup));
