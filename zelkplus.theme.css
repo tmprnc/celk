@@ -92,6 +92,10 @@
 
 /* CUSTOM CSS */
 
+[class*="modeSelected"] .vc-typing-indicator > .vc-typing-indicator-dots > [class*="dots"][class*="themed"] {
+    color: var(--background-1);
+}
+
 [class*="marginBottom4_"]:nth-child(3)>div:nth-child(3)>div:nth-child(1) {
   --radio-bar-accent-color: var(--green-360);
 }
