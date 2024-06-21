@@ -138,9 +138,11 @@
 
 [class*="numberBadge"] {
   color: var(--background-1);
-  font-family: 'Poppins';
-  padding-bottom: 1px;
-  padding-left: 0.5px;
+  font-size: 0.60em;
+  font-family: "Poppins";
+  font-weight: normal;
+  padding-top: 1px !important;
+  width: auto;
 }
 
 [class*="themedBackground"] {
