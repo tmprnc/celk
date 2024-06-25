@@ -764,7 +764,7 @@ button.button_f67531.enabled_f67531:hover {
   transform: scale(0.9);
 }
 
-[class^='winButtonClose'] > svg {
+[class^='winButtonClose']::after {
   background-color: var(--status-danger);
 }
 
