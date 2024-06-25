@@ -92,6 +92,18 @@
 
 /* CUSTOM CSS */
 
+[class*="interactiveSelected_"] {
+  color: var(--interactive-selected) !important;
+}
+
+[class*="interactiveSelected_"] [class*="highlighted_"] {
+  color: var(--interactive-selected);
+}
+
+[class*="highlighted_"] [class*="name_"] {
+  font-weight: bold;
+}
+
 [class*="modeSelected"] .vc-typing-indicator > .vc-typing-indicator-dots > [class*="dots"][class*="themed"] {
     color: var(--background-1);
 }
@@ -283,8 +295,8 @@
   color: var(--background-primary);
 }
 
-.modeSelected_d8bfb3:hover .name_d8bfb3,
-.modeSelected_d8bfb3:hover .icon_d8bfb3 {
+[class*="modeSelected_"]:hover [class*="name_"] ,
+[class*="modeSelected_"]:hover [class*="icon_"] {
   color: var(--accented-hover);
 }
 
@@ -558,10 +570,6 @@ button.button_f67531.enabled_f67531:hover {
 
 .containerDefault_f6f816.selected_f6f816 .iconNoChannelInfo_f6f816>.actionIcon_f6f816 {
   color: var(--background-1);
-}
-
-.interactiveSelected_c91bad>.closeIcon_c91bad {
-  background: var(--background-1);
 }
 
 .barButtonBase_cf58b5 {
@@ -846,10 +854,6 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 #app-mount .tab_f0cd33[aria-selected=true] {
-  color: var(--interactive-selected) !important;
-}
-
-.interactiveSelected_c91bad {
   color: var(--interactive-selected) !important;
 }
 
