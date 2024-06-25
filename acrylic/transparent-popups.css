@@ -34,11 +34,11 @@
 /*slight tint*/
 .theme-light .wrapper_ba23fe, .theme-light .inner__999f6,
 .theme-light .inner_effbe2 {
-    background: rgba(0, 0, 0, 0.05) !important;
+    background: transparent !important;
 }
 .theme-dark .wrapper_ba23fe, .theme-dark .inner__999f6,
 .theme-dark .inner_effbe2 {
-    background: rgba(255, 255, 255, 0.05) !important;
+    background: transparent !important;
 }
 
 /*remove background*/
@@ -70,7 +70,7 @@
 .addAnswerButton_f24a96, .modalHeader_cd3d24,
 .scrollTierBackground_f09e45, .wrapper_bfc2c6, .body_bf926b,
 .wrapper_c43059, .contentFill_c43059 {
-    background: none!important;
+    background: none !important;
 }
 
 .tier2_c87d73::before {

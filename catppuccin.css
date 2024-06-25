@@ -6,6 +6,7 @@
   --background-2: #1e2030 !important;
   --bg-2-85: rgba(30, 32, 48, .25);
   --bg-2-20: rgba(30, 32, 48, .20);
+  --bg-2-75: rgba(30, 32, 48, .75);
   --border-color: #1e1e2e !important;
   --background-mentioned: #a6e3a110 !important;
   --background-mentioned-hover: #f2cdcd15 !important;
@@ -47,6 +48,7 @@
   --background-2: #e6e9ef !important;
   --bg-2-85: rgba(230, 233, 239, .25) !important;
   --bg-2-20: rgba(230, 233, 239, .20);
+  --bg-2-75: rgba(230, 233, 239, .75);
   --border-color: transparent !important;
   --background-mentioned: #dc8a7810 !important;
   --background-mentioned-hover: #dc8a7815 !important;
