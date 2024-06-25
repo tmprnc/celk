@@ -258,7 +258,7 @@
   background: none;
 }
 
-.withTagAsButton_b2ca13 {
+[class*="nameTag_"] {
   color: var(--text-normal);
 }
 
