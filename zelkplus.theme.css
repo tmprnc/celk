@@ -205,18 +205,18 @@
 }
 
 [class*="result_"][aria-selected="true"] {
-  [class*="contentDefault_"], [class*="contentUnread_"] {
+  & [class*="contentDefault_"], [class*="contentUnread_"] {
     color: var(--background-1);
 
-    [class*="icon_"] {
+   & [class*="icon_"] {
       color: var(--background-1);
     }
 
-    [class*="note_"] {
+   & [class*="note_"] {
       color: var(--text-muted-accented);
     }
 
-    [class*="misc_"] {
+   & [class*="misc_"] {
       color: var(--text-muted-accented) !important;
     }
   }
@@ -371,7 +371,27 @@ button.button_f67531.enabled_f67531:hover {
 
 [class*="modeSelected_"]>[class*="unreadImportant_"] {
   background-color: var(--accent-color);
+  animation: breathing 1.5s ease-out infinite normal;
+  transform-origin: center;
+  }
+
+@keyframes breathing {
+	0% {
+		background-color: var(--unread);
+	}
+
+
+  50% {
+    transform: translateX(2.5px);
+    background-color: var(--accent-color);
+  }
+
+	100% {
+		background-color: var(--unread);
+	}
 }
+
+
 
 .barButtonBase_cf58b5 {
   color: inherit;
@@ -395,20 +415,20 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 [class*="modeSelected_"] {
-  [class*="name_"] {
+  & [class*="name_"] {
     color: var(--background-primary);
   }
   
-  [class*="icon_"] {
+  & [class*="icon_"] {
     color: var(--background-primary);
   }
   
-  [class*="actionIcon_"] {
+  & [class*="actionIcon_"] {
     color: var(--background-primary);
     fill: var(--background-primary);
   }
 
-  [class*="actionIcon_"]>path {
+  & [class*="actionIcon_"]>path {
     fill: inherit;
   }
 }
