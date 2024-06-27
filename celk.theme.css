@@ -102,7 +102,7 @@
   backdrop-filter: none;
   & .defaultColor_e9e35f {
     color: inherit;
-}
+  }
 }
 
 .scroller_c43953 {
@@ -128,10 +128,6 @@
 
 .container_adcaac {
   background: var(--bg-2-85);
-}
-
-.panels_a4d4d9 {
-
 }
 
 .container_b2ca13 {
@@ -458,7 +454,7 @@
   font-family: "Poppins";
   font-weight: normal;
   padding-top: 1px !important;
-  box-shadow: var(--elevation-medium)
+  box-shadow: var(--elevation-medium);
   text-align: center;
   padding-left: 50%;
   padding-right: 45% !important;
@@ -506,7 +502,6 @@
   }
   & #search-results {
     margin-top: 48px;
-    margin-bottom: 
   }
   & [class*="container_"]:has([class*="pageControlContainer_"]) {
     position: relative;
