@@ -16,7 +16,7 @@
 @import url(https://blacksparowyt.github.io/Zelk-Discord-Theme-Fixes/main-fixes.css);
 /*--------------COLORS---------------*/
 /*------remove / and * to apply------*/
-@import url(https://raw.githubusercontent.com/tmprnc/celk/main/catppuccin.css);
+@import url(./catppuccin.css);
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/green.css); */
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/gray.css); */
 /* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/orange.css); */
@@ -90,13 +90,56 @@
   --blur-small: 10px;
 }
 
-::selection {
-  background: var(--selected-text);
-}
-
 /* CUSTOM CSS */
 
-[class*="userProfileInner_"] {
+.header_fd6364 {
+  background-color: var(--bg-2-85);
+  backdrop-filter: blur(var(--blur-small));
+}
+
+.hasBanner_fd6364 .header_fd6364 {
+  background-color: transparent;
+  backdrop-filter: none;
+  & .defaultColor_e9e35f {
+    color: inherit;
+}
+}
+
+.scroller_c43953 {
+  top: -48px;
+  height: 100vh;
+  flex-shrink: 0;
+  & .content_eed6a8 {
+    margin-top: 48px;
+    margin-bottom: 72px;
+  }
+}
+
+.sidebar_a4d4d9:has(.container_adcaac) {
+  .content_eed6a8 {
+    margin-bottom: 174px;
+  }
+}
+
+.panels_a4d4d9 {
+  background: transparent;
+  backdrop-filter: blur(var(--blur-small));
+}
+
+.container_adcaac {
+  background: var(--bg-2-85);
+}
+
+.panels_a4d4d9 {
+
+}
+
+.container_b2ca13 {
+  background: var(--bg-2-85) !important;
+}
+
+
+[class*="userProfileInner_"]:not([class*="biteSizeInnerThemed_"]) {
   & [class*="wrapper_"][class*="panel_"] {
     margin-top: 48px;
     & button {
@@ -105,6 +148,23 @@
   }
   & [class*="header_"] {
     margin-top: 48px;
+  }
+  & [class*="scrollerBase_"] {
+    min-height: 100%;
+    & [class*="overlayBackground_"] {
+      margin-bottom: 48px !important;
+    }
+  }
+  & [class*="footer_"] {
+    position: sticky;
+    bottom: 0;
+    & button {
+      background-color: var(--bg-2-20) !important;
+      backdrop-filter: blur(var(--blur-small));
+      & [class*="contents_"] {
+        background: none;
+      }
+    }
   }
 }
 
@@ -120,6 +180,15 @@
     }
   }
 } */
+
+[class*="sidebar_"] > [class*="privateChannels_"] > [class*"searchBar_"]  {
+  position: sticky;
+
+}
+
+#vc_toolbox > [class*="scrollerBase_"] {
+    min-height: unset !important;
+}
 
 
 #channels {
@@ -157,10 +226,6 @@
   color: var(--text-normal) !important;
 }
 
-[class*="newMessagesBar_"] {
-  background: var(--unread-85);
-}
-
 [class*="interactiveSelected_"]:has([class*="highlighted_"]) {
     background: linear-gradient(270deg, var(--unread), var(--accent-color));
     background-size: 400% 400%;
@@ -180,11 +245,12 @@
       animation: unreadGradient 10s ease infinite;
 }
 
-[class*="modeSelected_"] {
-   [class*="name_"] {
-    font-weight: unset !important;
+[class*="modeUnreadImportant_"] {
+  & svg[class*="icon_"] {
+    color: var(--unread) !important;
   }
 }
+
 
 [class*="modeSelected_"] [class*="linkBottom_"] {
     color: var(--text-muted-accented) !important;
@@ -689,7 +755,6 @@ button.button_f67531.enabled_f67531:hover {
 
 .header_fd6364 {
   box-shadow: none;
-  background-color: var(--background-tertiary);
 }
 
 
@@ -784,8 +849,10 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 [class*="newMessagesBar_"] {
-  backdrop-filter: blur(var(--blur-small));
-  background-color: var(--unread);
+  backdrop-filter: blur(var(--blur-popup));
+  background: linear-gradient(270deg, var(--unread-85), var(--accent-85));
+  background-size: 800% 800%;
+  animation: unreadGradient 10s ease infinite;
   color: var(--background-1);
   position: absolute;
   top: 48px !important;
@@ -855,7 +922,6 @@ button.button_f67531.enabled_f67531:hover {
   background: none !important;
 }
 
-.container_fd6364,
 .container_cbd271,
 .members_cbd271,
 .container_e44302,
@@ -912,13 +978,9 @@ button.button_f67531.enabled_f67531:hover {
   color: var(--background-1);
 }
 
-.modeUnreadImportant_d8bfb3 .icon_d8bfb3 {
-  color: var(--accent-color) !important;
-}
-
 .containerDefault_f6f816:has(.modeConnected_d8bfb3) .link_d8bfb3 svg,
 .containerDragBefore_f6f816:has(.modeConnected_d8bfb3) .link_d8bfb3 svg {
-  color: var(--indicator-connected-border);
+  color: var(--text-positive);
 }
 
 .icon_d8bfb3 {
