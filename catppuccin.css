@@ -28,6 +28,7 @@
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
   --unread: #f5a97f !important;
+  --unread-85: rgba(245, 168, 127, 0.25) !important;
   --accented-hover: #179299 !important;
   --green-330: #a6d189 !important;
   --green-360: #7faf5e !important;
@@ -39,6 +40,9 @@
   --button-positive-background-hover: var(--green-330);
   --mention-background: #a6e3a15e;
   --mention-foreground: #e2efe1;
+  --red-400: #e64553;
+  --spoiler-box: #24273a;
+  
 }
 
 .theme-light {
@@ -69,21 +73,24 @@
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
-  --unread: #ca9ee6 !important;
+  --unread: #c6a0f6 !important;
+  --unread-85: rgba(198, 160, 246, 0.25) !important;
   --accented-hover: #f5e0dc !important;
   --green-330: #a6d189 !important;
   --green-360: #7faf5e !important;
   --green-430: #7faf5e;
   --status-positive: #7faf5e !important;
   --status-danger: #e64553 !important;
-  --text-muted-accented: var(--background-2);
+  --text-muted-accented: #e6e9efba !important;
   --button-positive-background: var(--text-positive);
   --button-positive-background-hover: var(--green-330);
   --mention-background: #dc8a785e;
   --mention-foreground: #db6f57;
-}
+  --red-400: #ec7e80;
+} 
 
 :root {
+  --yellow-360: #e5c890;
   --background-primary: var(--background-1) !important;
   --background-primary-alt: var(--background-1) !important;
   --background-secondary: var(--background-1) !important;
