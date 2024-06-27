@@ -90,6 +90,10 @@
   --blur-small: 10px;
 }
 
+::selection {
+  background: var(--selected-text);
+}
+
 /* CUSTOM CSS */
 
 [class*="userProfileInner_"] {

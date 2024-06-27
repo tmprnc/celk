@@ -42,7 +42,7 @@
   --mention-foreground: #e2efe1;
   --red-400: #e64553;
   --spoiler-box: #24273a;
-  
+  --selected-text: #93e1d466;
 }
 
 .theme-light {
@@ -87,6 +87,7 @@
   --mention-background: #dc8a785e;
   --mention-foreground: #db6f57;
   --red-400: #ec7e80;
+  --selected-text: #eebebe66;
 } 
 
 :root {
