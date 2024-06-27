@@ -1,6 +1,7 @@
 /* Catppuccin Latte Flamingo (Light) & Catppuccin Moccha Green (Dark) */
 .theme-dark {
   --accent-color: #a6e3a1 !important;
+  --accent-rgb: rgb(166, 227, 161);
   --accent-85: #a6e3a1d9;
   --background-1: #181926 !important;
   --background-2: #1e2030 !important;
@@ -47,6 +48,7 @@
 
 .theme-light {
   --accent-color: #dc8a78 !important;
+  --accent-rgb: rgb(220, 138, 120);
   --accent-85: #dc8a78d9 !important;
   --background-1: #eff1f5 !important;
   --background-2: #e6e9ef !important;
