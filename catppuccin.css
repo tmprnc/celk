@@ -1,15 +1,15 @@
 /* Catppuccin Latte Flamingo (Light) & Catppuccin Moccha Green (Dark) */
 .theme-dark {
-  --accent-color: #a6e3a1 !important;
-  --accent-rgb: rgb(166, 227, 161);
-  --accent-85: #a6e3a1d9;
+  --accent-color: #e5c890 !important;
+  --accent-rgb: rgb(229, 200, 144);
+  --accent-85: #e5c890d9;
   --background-1: #181926 !important;
   --background-2: #1e2030 !important;
   --bg-2-85: rgba(30, 32, 48, .55);
   --bg-2-20: rgba(30, 32, 48, .20);
   --bg-2-75: rgba(30, 32, 48, .75);
   --border-color: #1e1e2e !important;
-  --background-mentioned: #a6e3a110 !important;
+  --background-mentioned: #e5c89010 !important;
   --background-mentioned-hover: #f2cdcd15 !important;
   --background-modifier-hover: #313244 !important;
   --background-modifier-active: #45475a !important;
@@ -23,8 +23,8 @@
   --button-background: #2e392a !important;
   --button-background-hover: #374935 !important;
   --button-background-active: #585b70 !important;
-  --button-accent-hover: #f0c6c6 !important;
-  --button-accent-active: #eebebe !important;
+  --button-accent-hover: #f9e2af !important;
+  --button-accent-active: #ef9f76 !important;
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
@@ -39,7 +39,7 @@
   --text-muted-accented: var(--button-background-active);
   --button-positive-background: var(--text-positive);
   --button-positive-background-hover: var(--green-330);
-  --mention-background: #a6e3a15e;
+  --mention-background: #e5c8905e;
   --mention-foreground: #e2efe1;
   --red-400: #e64553;
   --spoiler-box: #24273a;
@@ -47,9 +47,9 @@
 }
 
 .theme-light {
-  --accent-color: #dc8a78 !important;
-  --accent-rgb: rgb(220, 138, 120);
-  --accent-85: #dc8a78d9 !important;
+  --accent-color: #7287fd !important;
+  --accent-rgb: rgb(114, 135, 253);
+  --accent-85: #7287fdd9 !important;
   --background-1: #eff1f5 !important;
   --background-2: #e6e9ef !important;
   --bg-2-85: rgba(230, 233, 239, .55) !important;
@@ -63,15 +63,15 @@
   --text-normal: #4c4f69 !important;
   --text-positive: #7faf5e !important;
   --text-muted: #6c6f85 !important;
-  --text-link: #dd7878 !important;
+  --text-link: #7287fd !important;
   --settings-icon-color: #566e86 !important;
   --tab-selected: var(--background-1) !important;
-  --switch: #d9c8c8 !important;
+  --switch: #dcdff5  !important;
   --button-background: var(--background-1) !important;
-  --button-background-hover: #f5e0dc !important;
+  --button-background-hover: #dcdff5 !important;
   --button-background-active: #acb0be !important;
-  --button-accent-hover: #dc8a78 !important;
-  --button-accent-active: #c45c44 !important;
+  --button-accent-hover: #babbf1 !important;
+  --button-accent-active: #7287fd !important;
   --button-destructive: #fb7c7c !important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
@@ -86,10 +86,10 @@
   --text-muted-accented: #e6e9efba !important;
   --button-positive-background: var(--text-positive);
   --button-positive-background-hover: var(--green-330);
-  --mention-background: #dc8a785e;
-  --mention-foreground: #db6f57;
+  --mention-background: #7287fd5e;
+  --mention-foreground: #4d70f1;
   --red-400: #ec7e80;
-  --selected-text: #eebebe66;
+  --selected-text: #a5b1f566;
 } 
 
 :root {
