@@ -56,10 +56,10 @@
   --bg-2-20: rgba(230, 233, 239, .20);
   --bg-2-75: rgba(230, 233, 239, .75);
   --border-color: transparent !important;
-  --background-mentioned: #dc8a7810 !important;
-  --background-mentioned-hover: #dc8a7815 !important;
-  --background-modifier-hover: #f5e0dc !important;
-  --background-modifier-active: #e1d3d0 !important;
+  --background-mentioned: #7287fd10 !important;
+  --background-mentioned-hover: #7287fd15 !important;
+  --background-modifier-hover: #dcdcf5 !important;
+  --background-modifier-active: #d0d0e1 !important;
   --text-normal: #4c4f69 !important;
   --text-positive: #7faf5e !important;
   --text-muted: #6c6f85 !important;
@@ -77,7 +77,7 @@
   --button-destructive-active: #fa4a4a !important;
   --unread: #c6a0f6 !important;
   --unread-85: rgba(198, 160, 246, 0.25) !important;
-  --accented-hover: #f5e0dc !important;
+  --accented-hover: #d0d6f7 !important;
   --green-330: #a6d189 !important;
   --green-360: #7faf5e !important;
   --green-430: #7faf5e;
