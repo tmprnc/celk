@@ -9,7 +9,7 @@
   --bg-2-20: rgba(30, 32, 48, .20);
   --bg-2-75: rgba(30, 32, 48, .75);
   --border-color: #1e1e2e !important;
-  --background-mentioned: #e5c89010 !important;
+  --background-mentioned: #e7828410 !important;
   --background-mentioned-hover: #f2cdcd15 !important;
   --background-modifier-hover: #313244 !important;
   --background-modifier-active: #45475a !important;
@@ -28,8 +28,8 @@
   --button-destructive: #d20f39!important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
-  --unread: #f5a97f !important;
-  --unread-85: rgba(245, 168, 127, 0.25) !important;
+  --unread: #cba6f7 !important;
+  --unread-85: rgba(203, 166, 247, 0.25) !important;
   --accented-hover: #f38ba8 !important;
   --green-330: #a6d189 !important;
   --green-360: #7faf5e !important;
