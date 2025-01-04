@@ -937,9 +937,7 @@ button.button_adca65.enabled_adca65:hover {
 
 .modeSelected_d8bfb3 .name_d8bfb3,
 .modeSelected_d8bfb3 .name_d8bfb3,
-.interactiveSelected_c91bad,
-.selected_a0.item_a0,
-.selected_a0.item_a0:hover {
+.interactiveSelected_c91bad {
   color: var(--background-1);
 }
 
