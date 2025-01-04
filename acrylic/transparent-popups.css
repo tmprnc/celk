@@ -114,7 +114,7 @@
 .customColorPicker_bbc020, .root_f9a4c9:has(>div>div>form>.header_f9a4c9),
 .prompt_cd377c, .vc-notification, .guildPopout_cf5d0a, 
 .selectFilterPopout_cfe282, .container_b572de,
-.root_f9a4c9:has(>.content_cd79c9), .container_feab95  {
+.root_f9a4c9:has(>.content_cd79c9), .container_feab95, .contentWrapper_f7506e  {
     background: transparent!important;
     backdrop-filter: blur(var(--blur-popup));
 }
