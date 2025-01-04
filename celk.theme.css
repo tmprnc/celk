@@ -116,8 +116,11 @@
 }
 
 .sidebar_a4d4d9:has(.container_adcaac) {
-  .content_eed6a8 {
+  & .content_eed6a8 {
     margin-bottom: 174px;
+  }
+  & .container_b2ca13 {
+    border-radius: 0;
   }
 }
 
@@ -128,12 +131,37 @@
 
 .container_adcaac {
   background: var(--bg-2-85);
+  border-radius: 25px 25px 0 0;
+  padding-top: 12px
+}
+
+[class*="connection_"] {
+  & [class*="button_"] {
+    border-radius: 100%;
+  }
 }
 
 .container_b2ca13 {
   background: var(--bg-2-85) !important;
+  border-radius: 25px 25px 0 0;
+  justify-content: space-between;
+  & [class*="button_"] {
+    border-radius: 100%;
+  }
 }
 
+.button_dd4f85, .disabledButtonWrapper_dd4f85 {
+  border-radius: 50px;
+}
+
+[class*="avatarWrapper_"]:hover {
+  border-radius: 15px;
+}
+
+[class*="avatarWrapper_"] {
+  padding-right: 5px;
+  margin-right: 0;
+}
 
 [class*="userProfileInner_"]:not([class*="biteSizeInnerThemed_"]) {
   & [class*="wrapper_"][class*="panel_"] {
@@ -250,7 +278,7 @@
 
 [class*="modeSelected_"] [class*="linkBottom_"] {
     color: var(--text-muted-accented) !important;
-    & [class*="status"] {
+    & [class*="status"], [class=*"pencilIcon_"] {
       color: inherit;
     }
 }
@@ -306,18 +334,6 @@
   & path {
     fill: white;
   }
-}
-
-[class*="oneByOneGrid_"] [class*="imageWrapper_"] {
-  width: auto !important;
-  height: auto !important;
-  max-height: unset;
-  max-width: unset;
-}
-
-[class*="twoByTwoGrid_"] {
-  max-height: unset;
-  grid-gap: 5px;
 }
 
 [class*="membersGroup_"] {
@@ -659,8 +675,15 @@
   background: none;
 }
 
-[class*="nameTag_"] {
-  color: var(--text-normal);
+[class*="nameTag_"]:hover {
+  color: var(--background-1);
+  & [class*="title_"] {
+    color: inherit;
+  }
+  & [class*="subtext_"] {
+    color: var(--background-2);
+    opacity: 0.7;
+  }
 }
 
 .withTagAsButton_b2ca13:hover {

@@ -1,8 +1,8 @@
 /* Catppuccin Latte Flamingo (Light) & Catppuccin Moccha Green (Dark) */
 .theme-dark {
-  --accent-color: #e78284 !important;
-  --accent-rgb: rgb(231, 130, 132);
-  --accent-85: #e78284d9;
+  --accent-color: #a6e3a1 !important;
+  --accent-rgb: rgb(166, 227, 161);
+  --accent-85: #a6e3a1d9;
   --background-1: #181926 !important;
   --background-2: #1e2030 !important;
   --bg-2-85: rgba(30, 32, 48, .55);
@@ -28,9 +28,9 @@
   --button-destructive: #d20f39!important;
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
-  --unread: #cba6f7 !important;
-  --unread-85: rgba(203, 166, 247, 0.25) !important;
-  --accented-hover: #f38ba8 !important;
+  --unread: #94e2d5 !important;
+  --unread-85: rgba(148, 226, 213, 0.25) !important;
+  --accented-hover: color-mix(in oklab, var(--accent-color) 85%, white 15%) !important;
   --green-330: #a6d189 !important;
   --green-360: #7faf5e !important;
   --green-430: #7faf5e;
@@ -39,11 +39,11 @@
   --text-muted-accented: var(--button-background-active);
   --button-positive-background: var(--text-positive);
   --button-positive-background-hover: var(--green-330);
-  --mention-background: #e5c8905e;
-  --mention-foreground: #e2efe1;
+  --mention-background: #a6e3a120;
+  --mention-foreground: #a6e3a149;
   --red-400: #e64553;
   --spoiler-box: #24273a;
-  --selected-text: #93e1d466;
+  --selected-text: #cfe1cd5a;
 }
 
 .theme-light {
@@ -77,7 +77,7 @@
   --button-destructive-active: #fa4a4a !important;
   --unread: #c6a0f6 !important;
   --unread-85: rgba(198, 160, 246, 0.25) !important;
-  --accented-hover: #d0d6f7 !important;
+  --accented-hover: color-mix(in oklab, var(--accent-color) 85%, black 15%) !important;
   --green-330: #a6d189 !important;
   --green-360: #7faf5e !important;
   --green-430: #7faf5e;
