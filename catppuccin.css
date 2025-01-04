@@ -29,8 +29,8 @@
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
   --unread: #94e2d5 !important;
-  --unread-85: rgba(148, 226, 213, 0.25) !important;
-  --accented-hover: color-mix(in oklab, var(--accent-color) 85%, white 15%) !important;
+  --unread-85: rgba(148, 226, 213, 0.85) !important;
+  --accented-hover: color-mix(in oklab, var(--accent-color) 45%, white 55%) !important;
   --green-330: #a6d189 !important;
   --green-360: #7faf5e !important;
   --green-430: #7faf5e;
@@ -76,7 +76,7 @@
   --button-destructive-hover: #ff929b !important;
   --button-destructive-active: #fa4a4a !important;
   --unread: #c6a0f6 !important;
-  --unread-85: rgba(198, 160, 246, 0.25) !important;
+  --unread-85: rgba(198, 160, 246, 0.85) !important;
   --accented-hover: color-mix(in oklab, var(--accent-color) 85%, black 15%) !important;
   --green-330: #a6d189 !important;
   --green-360: #7faf5e !important;
